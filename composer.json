@@ -1,0 +1,14 @@
+{
+	"name": "tutor2u/impersonator",
+	"description": "Tells you about the person using the Login",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "tutor2u",
+			"homepage": "https://www.tutor2u.net"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
