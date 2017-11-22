@@ -20,7 +20,7 @@ In your templates:
 
     {% set impersonator = craft.impersonator.get() %}
     {% if impersonator %}
-        {{ impersonator.fullName }}
+        {{ impersonator.fullName }} is impersonating {{ currentUser.fullName }}
     {% endif %}
 
 In your own plugins:
